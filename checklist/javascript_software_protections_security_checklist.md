@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The JavaScript Software Protection Security Checklist is a vendor-independent effort that aims at helping Security Practitioners analyzing the potency and resiliency of a JavaScript Software Protection. 
+The JavaScript Software Protection Security Checklist is a vendor-independent effort that aims at helping Security Practitioners analyzing the potency and resilience of a JavaScript Software Protection. 
 
 The checklist follows the OWASP MASVS [1] organization model of enumerating different verification requirements across a number of different categories. It builds upon its *V8: Resilience Requirements* section, further expanding it and adjusting it to a different scope: JavaScript Software Protections - which is not only applicable to Mobile Applications having JavaScript but, in fact, to any other kind of JavaScript-based application (e.g. Web, Node.js) for which one may consider using software protections. Some inspiration was also drawn from the OWASP Mobile Security Testing Guide [2].
 
@@ -74,7 +74,7 @@ These verification requirements do not aim to verify if some feature is availabl
 | **6.6** | Verify that the integrity checks are diverse across different protections |   |   | ✓ |
 | **6.7** | Verify that the detection mechanisms (including responses to tampering, debugging and emulation) trigger responses of different types, including delayed and stealthy responses that don’t simply terminate the app |   |   | ✓ |
 
-## V7: Resiliency
+## V7: Resilience
 
 | # | Description | L1 | L2 | L3 |
 | --- | --- | --- | --- | --- |
@@ -88,4 +88,5 @@ These verification requirements do not aim to verify if some feature is availabl
 ## References
 
 [1] OWASP Mobile Application Security Verification Standard (MASVS): https://github.com/OWASP/owasp-masvs
+
 [2] OWASP Mobile Security Testing Guide: https://www.owasp.org/index.php/OWASP_Mobile_Security_Testing_Guide

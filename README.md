@@ -1,6 +1,6 @@
 # JavaScript Software Protections Security Checklist
 
-The JavaScript Software Protection Security Checklist is a vendor-independent effort that aims at helping Security Practitioners analyzing the potency and resiliency of a JavaScript Software Protection. 
+The JavaScript Software Protection Security Checklist is a vendor-independent effort that aims at helping Security Practitioners analyzing the potency and resilience of a JavaScript Software Protection. 
 
 The checklist follows the OWASP MASVS organization model of enumerating different verification requirements across a number of different categories. It builds upon its *V8: Resilience Requirements* section, further expanding it and adjusting it to a different scope: JavaScript Software Protections - which is not only applicable to Mobile Applications having JavaScript but, in fact, to any other kind of JavaScript-based application (e.g. Web, Node.js) for which one may consider using software protections. Some inspiration was also drawn from the OWASP Mobile Security Testing Guide.
 
